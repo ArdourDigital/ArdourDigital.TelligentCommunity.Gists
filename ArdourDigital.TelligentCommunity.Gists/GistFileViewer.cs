@@ -27,7 +27,7 @@ namespace ArdourDigital.TelligentCommunity.Gists
         {
             get
             {
-                return "GitHub Gist File Viewer";
+                return "Ardour Digital - GitHub Gist File Viewer";
             }
         }
 
