@@ -8,6 +8,7 @@ Github Gist Embedding plugin for Telligent Community.
 
 ## Supported Versions
 This plugin should work with the following versions of Telligent Community
+- Telligent Community 10.x
 - Telligent Community 9.x
 - Telligent Community 8.x
 - Telligent Community 7.x
@@ -20,7 +21,15 @@ You can install the plugin by [downloading the latest version](https://github.co
 Install-Package ArdourDigital.TelligentCommunity.Gists
 ```
 
-The plugin can then be enabled by logging in as an administrator, and going to `Administration` > `Extensions` and finding `Ardour Digital - GitHub Gist File Viewer`, check the `Enabled` check box, and `Save`.
+The plugin then needs to be enabled, how you do this varies based on your version of Telligent Community:
+
+__Telligent 9.x/10.x__
+
+The plugin can then be enabled by logging in as an administrator, and going to `Administration` > `File Viewers` and finding `Ardour Digital - GitHub Gist File Viewer`, check the `Enabled` check box, and `Save`.
+
+__Telligent 7.x/8.x__
+
+The plugin can then be enabled by logging in as an administrator, and going to `Control Panel` > `Site Administration` > `Manage Plugins` and finding `Ardour Digital - GitHub Gist File Viewer`, check the check box, and click `Save` at the bottom of the page.
 
 ## Usage
 
