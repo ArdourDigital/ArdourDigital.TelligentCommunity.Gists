@@ -43,7 +43,7 @@ namespace ArdourDigital.TelligentCommunity.Gists
         {
             get
             {
-                return "https://gist.github.com/[a-zA-Z0-9]+/[a-fA-F0-9]+";
+                return "https://gist.github.com/[a-zA-Z0-9\-]+/[a-fA-F0-9]+";
             }
         }
 
